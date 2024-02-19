@@ -28,7 +28,8 @@ a {
     border: none;
 }
 
-.section-one {
+.section-one,
+.footer {
     background-color: #1F2937;
 }
 
@@ -156,7 +157,7 @@ a {
 }
 
 .section-four {
-    height: 250px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,4 +193,13 @@ a {
     color: white;
     background-color: transparent;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: #f9faf8;
+    font-weight: 300;
 }
