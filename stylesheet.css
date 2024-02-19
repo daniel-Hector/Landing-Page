@@ -2,6 +2,7 @@ body {
     font-family: roboto;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 ul {
@@ -88,4 +89,45 @@ a {
     align-items: center;
     justify-content: center;
     margin-right: 8px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+    color: #1f2937;
+}
+
+.box-container,
+.subtext-container {
+    display: flex;
+    gap: 40px;
+}
+
+.box {
+    border: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:  #3882f6;
+    width: 150px;
+    height: 150px;
+}
+
+.subtext-container {
+    gap: 52px;
+}
+
+.box-text {
+    width: 145px;
+    text-align: center;
+    color: grey;
+    margin-top: 8px;
 }
